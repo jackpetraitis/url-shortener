@@ -20,7 +20,7 @@ end
 configure do
 
   SiteConfig = OpenStruct.new(
-          :title => 'Sinatra Shortener',
+          :title => 'Frank Sinatra\'s URL Shortener',
           :author => 'Frank Sinatra',
           :url_base => 'http://urls.pleasetunein.com/' # the url of your application
         )

@@ -1,6 +1,7 @@
 <div class="container">
 
 	<h1><%= SiteConfig.title %></h1>
+
 	<p>Currently serving <%= @urls.count %> shortened links</p>
 	<form method="post">
 		<input type="text" value="<%=h(params[:url]) %>" name="url" id="url" />
@@ -11,7 +12,8 @@
 
 <% if @shortenedURL %>
 <div class="result">
-	Your shortened URL is:
-	<a href="<%= @shortenedURL %>"><%= @shortenedURL %></a>
+	Your shortened URL is: 
+	<a href="<%= @shortenedURL %>"><%= @shortenedURL %></a><br>
+	(It's probably longer than the real one.)
 </div>
 <% end %>
