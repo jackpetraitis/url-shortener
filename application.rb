@@ -21,8 +21,8 @@ configure do
 
   SiteConfig = OpenStruct.new(
           :title => 'Sinatra Shortener',
-          :author => 'Your Name Can Go Here',
-          :url_base => 'http://localhost:4567/' # the url of your application
+          :author => 'Frank Sinatra',
+          :url_base => 'http://urls.pleasetunein.com/' # the url of your application
         )
         
   # load models
